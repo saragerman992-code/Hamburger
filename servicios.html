@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Servicios - Cocina Gourmet</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #fdfaf6;
+            color: #333;
+        }
+
+        header {
+            background-color: #8b4513;
+            color: white;
+            text-align: center;
+            padding: 30px 20px;
+        }
+
+        header h1 {
+            margin: 0;
+            font-size: 42px;
+        }
+
+        header p {
+            margin-top: 10px;
+            font-size: 18px;
+        }
+
+        .contenedor {
+            width: 90%;
+            max-width: 1200px;
+            margin: auto;
+            padding: 40px 20px;
+        }
+
+        .titulo {
+            text-align: center;
+            margin-bottom: 40px;
+        }
+
+        .titulo h2 {
+            font-size: 36px;
+            color: #8b4513;
+        }
+
+        .servicios {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+            gap: 30px;
+        }
+
+        .servicio {
+            background: white;
+            border-radius: 12px;
+            padding: 30px;
+            box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+            text-align: center;
+            transition: transform 0.3s ease;
+        }
+
+        .servicio:hover {
+            transform: translateY(-5px);
+        }
+
+        .servicio h3 {
+            color: #d2691e;
+            margin-bottom: 15px;
+        }
+
+        .servicio p {
+            line-height: 1.6;
+        }
+
+        .icono {
+            font-size: 50px;
+            margin-bottom: 20px;
+        }
+
+        footer {
+            background-color: #8b4513;
+            color: white;
+            text-align: center;
+            padding: 20px;
+            margin-top: 40px;
+        }
+
+        .boton {
+            display: inline-block;
+            margin-top: 15px;
+            background: #d2691e;
+            color: white;
+            padding: 10px 20px;
+            border-radius: 6px;
+            text-decoration: none;
+        }
+
+        .boton:hover {
+            background: #b85a17;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>Cocina Gourmet</h1>
+        <p>Sabores únicos y experiencias inolvidables</p>
+    </header>
+
+    <section class="contenedor">
+        <div class="titulo">
+            <h2>Nuestros Servicios</h2>
+            <p>Ofrecemos soluciones gastronómicas para toda ocasión.</p>
+        </div>
+
+        <div class="servicios">
+            <div class="servicio">
+                <div class="icono">🍽️</div>
+                <h3>Catering para Eventos</h3>
+                <p>Servicio profesional de alimentos para bodas, cumpleaños, conferencias y eventos corporativos.</p>
+            </div>
+
+            <div class="servicio">
+                <div class="icono">👨‍🍳</div>
+                <h3>Chef Personal</h3>
+                <p>Disfruta de un chef privado en tu hogar para cenas especiales y reuniones familiares.</p>
+            </div>
+
+            <div class="servicio">
+                <div class="icono">🎂</div>
+                <h3>Repostería Artesanal</h3>
+                <p>Pasteles, postres y dulces personalizados elaborados con ingredientes de primera calidad.</p>
+            </div>
+
+            <div class="servicio">
+                <div class="icono">📦</div>
+                <h3>Entrega a Domicilio</h3>
+                <p>Comidas frescas y deliciosas entregadas directamente a tu puerta.</p>
+            </div>
+
+            <div class="servicio">
+                <div class="icono">🥗</div>
+                <h3>Menús Saludables</h3>
+                <p>Opciones nutritivas y balanceadas para personas que cuidan su alimentación.</p>
+            </div>
+
+            <div class="servicio">
+                <div class="icono">🎉</div>
+                <h3>Banquetes Especiales</h3>
+                <p>Diseño de menús exclusivos para celebraciones y ocasiones memorables.</p>
+            </div>
+        </div>
+
+        <div style="text-align:center; margin-top:40px;">
+            <a href="contacto.html" class="boton">Solicitar Información</a>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2026 Cocina Gourmet. Todos los derechos reservados.</p>
+    </footer>
+
+</body>
+</html>

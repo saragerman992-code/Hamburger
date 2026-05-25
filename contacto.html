@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contacto</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background: #f4f4f4;
+            margin: 0;
+            padding: 0;
+        }
+
+        .contenedor {
+            width: 90%;
+            max-width: 600px;
+            margin: 50px auto;
+            background: #ffffff;
+            padding: 30px;
+            border-radius: 10px;
+            box-shadow: 0 0 15px rgba(0,0,0,0.1);
+        }
+
+        h1 {
+            text-align: center;
+            color: #333;
+        }
+
+        p {
+            text-align: center;
+            color: #666;
+        }
+
+        .grupo {
+            margin-bottom: 20px;
+        }
+
+        label {
+            display: block;
+            margin-bottom: 8px;
+            font-weight: bold;
+            color: #444;
+        }
+
+        input, textarea {
+            width: 100%;
+            padding: 12px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            font-size: 16px;
+            box-sizing: border-box;
+        }
+
+        textarea {
+            resize: vertical;
+        }
+
+        button {
+            width: 100%;
+            background: #007BFF;
+            color: white;
+            border: none;
+            padding: 14px;
+            font-size: 18px;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+
+        button:hover {
+            background: #0056b3;
+        }
+
+        .info {
+            margin-top: 30px;
+            text-align: center;
+            color: #555;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="contenedor">
+        <h1>Contáctanos</h1>
+        <p>Completa el formulario y nos pondremos en contacto contigo.</p>
+
+        <form action="#" method="post">
+            <div class="grupo">
+                <label for="nombre">Nombre</label>
+                <input type="text" id="nombre" name="nombre" required>
+            </div>
+
+            <div class="grupo">
+                <label for="correo">Correo Electrónico</label>
+                <input type="email" id="correo" name="correo" required>
+            </div>
+
+            <div class="grupo">
+                <label for="telefono">Teléfono</label>
+                <input type="tel" id="telefono" name="telefono">
+            </div>
+
+            <div class="grupo">
+                <label for="mensaje">Mensaje</label>
+                <textarea id="mensaje" name="mensaje" rows="5" required></textarea>
+            </div>
+
+            <button type="submit">Enviar Mensaje</button>
+        </form>
+
+        <div class="info">
+            <p><strong>Dirección:</strong> Santo Domingo, República Dominicana</p>
+            <p><strong>Teléfono:</strong> (809) 123-4567</p>
+            <p><strong>Email:</strong> contacto@miempresa.com</p>
+        </div>
+    </div>
+
+</body>
+</html>
